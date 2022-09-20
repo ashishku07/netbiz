@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+2:wght@500&family=Bree+Serif&family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./pexels-marcus-aurelius-6787962\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.nav-list{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.nav-list img{
+    width: 250px;
+     display: block;
+     
+
+}
+
+.section1{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+  
+    
+}
+
+.section1 div{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+    background: rgb(120 87 53 / 20%)
+    
+}
+
+#title{
+ font-size: 60px;
+ color: #ce9458;
+ margin: 5px;
+ font-family: 'Bree Serif', serif;
+ font-weight: 300;
+
+ 
+
+}
+
+.section1 p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Audiowide', cursive;
+}
+
+.section1 h1{
+    color: #ce9458;
+    margin-top: 50px;
+    font-size: 45px; 
+    font-family: 'Audiowide', cursive;
+}
+
+.section2{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    height: 32vw;
+ 
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.left-col,.right-col{
+       
+    flex-basis: 50%;
+}
+.left-col{
+padding: 50px 0;
+}
+
+.left-content{
+    text-align: center;
+}
+
+.left-content h2{
+    font-size: 25px;
+    color: #ce9458;
+    margin-bottom: 50px;
+    font-family: 'Audiowide', cursive;
+}
+.left-content h1{
+    font-size: 50px;
+    font-weight: 1500;
+    color: #ce9458;
+    margin-bottom: 50px;
+    font-family: 'Audiowide', cursive;
+}
+
+.left-content ul li{
+  color: #ce9458;
+  padding: 10px; 
+  font-weight: bold; 
+  list-style: none;  
+  font-family: 'Audiowide', cursive;
+}
+
+
+.right-col{
+    width: 300px;
+    height: 500px;
+    
+    
+    margin: 50px;
+    background-image: url(./section2.jpg);
+    background-size: cover;
+  
+}
+ .section3{
+    height: 17vw;
+    background-color: rgb(17, 17, 58);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+ }
+
+ .section3 .title{
+    font-size: 20px;
+    margin: 80px;
+    font-family: 'Audiowide', cursive;
+    color: #ce9458;
+
+
+ }
+ .section3 h1{
+    color: #ce9458;
+
+    margin-top: -130px;
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+ }
+ .section3 p{
+    font-family: 'Audiowide', cursive;
+    margin-top: -70px;
+    font-size: 25px;
+    color: #ce9458;
+
+ }
+
+
+
+/* .details{
+    width: 50%;
+    margin: 15vw;
+    color:#ce9458;
+    align-items: center;
+}
+
+.right-image{
+    width: 50%;
+
+    background-size: cover;
+}
+.right-image img{
+    margin-left: 1200px;
+    height: 150pw;
+    width: 100px;
+} */
